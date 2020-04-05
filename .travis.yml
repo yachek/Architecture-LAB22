@@ -11,4 +11,5 @@ script:
 - cd $GOPATH/src/github.com/vladShadow/Architecture-LAB22/build
 - sudo chmod +x my-bood-initial
 - ./my-bood-initial
+- mv -f my-build.bood build.bood
 - /out/bin/bood

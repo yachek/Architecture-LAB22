@@ -1,11 +1,11 @@
 go_binary {
   name: "bood",
   pkg: "github.com/vladShadow/Architecture-LAB22/build/cmd/bood",
-  testPkg: "github.com/vladShadow/Architecture-LAB22/build/gomodule",
+  //testPkg: "github.com/vladShadow/Architecture-LAB22/build/gomodule",
   srcs: ["**/*.go", "../go.mod"]
 }
 
-zip_archive {
- name: "my-archive",
- srcs: ["**/*.go"],
-}
+//zip_archive {
+// name: "my-archive",
+// srcs: ["**/*.go"],
+//}
