@@ -1,10 +1,11 @@
 go_binary {
-  // Module (and output) name.
   name: "bood",
-
-  // Go package to build.
-  pkg: "github.com/roman-mazur/design-practice-2-template/build/cmd/bood",
-
-  // Build inputs.
+  pkg: "github.com/vladShadow/Architecture-LAB22/build/cmd/bood",
+  testPkg: "github.com/vladShadow/Architecture-LAB22/build/gomodule",
   srcs: ["**/*.go", "../go.mod"]
+}
+
+zip_archive {
+ name: "my-archive",
+ srcs: ["**/*.go"],
 }
