@@ -67,10 +67,10 @@ func (gb *goTestedBinaryModuleType) GenerateBuildActions(ctx blueprint.ModuleCon
 			inputErors = true
 		}
 	}
-	inputs := inputsTest
 	if inputErors {
 		return
 	}
+	var inputs []string
 	for i := 0; i < len(inputsTest); i++ {
 		if val, _ := regexp.Match(".*_test\\.go$", []byte(inputsTest[i])); val == false {
 			inputs = append(inputs, inputsTest[i])
