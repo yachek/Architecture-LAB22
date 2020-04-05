@@ -15,3 +15,5 @@ script:
 - mv -f my-build.bood build.bood
 - ./out/bin/bood
 - cat out/bin/test.txt
+- ./out/bin/bood
+- cat out/bin/test.txt
