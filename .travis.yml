@@ -13,4 +13,4 @@ script:
 - ./my-bood-initial
 - ls out/bin
 - mv -f my-build.bood build.bood
-- /out/bin/bood
+- ./out/bin/bood
