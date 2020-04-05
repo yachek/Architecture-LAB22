@@ -9,5 +9,5 @@ install:
 
 script:
 - cd $GOPATH/src/github.com/vladShadow/Architecture-LAB22/build
-- my-bood-initial
+- ./my-bood-initial
 - /out/bin/bood
